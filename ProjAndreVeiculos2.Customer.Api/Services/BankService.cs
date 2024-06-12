@@ -22,8 +22,8 @@ namespace ProjAndreVeiculos2.Customer.Api.Services
                 HttpResponseMessage response = await BankService.bankClient.PostAsync("https://localhost:7128/api/Bank", content);
                 response.EnsureSuccessStatusCode();
                 string bankReturn = await response.Content.ReadAsStringAsync();
-                var end = JsonConvert.DeserializeObject<Models.Bank>(bankReturn);
-                return end;
+                var b = JsonConvert.DeserializeObject<Models.Bank>(bankReturn);
+                return b;
             }
             catch (HttpRequestException e)
             {
