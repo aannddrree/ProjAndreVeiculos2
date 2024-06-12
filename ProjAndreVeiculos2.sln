@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjAndreVeiculos2.Customer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAndreVeiculos2.Bank.Api", "ProjAndreVeiculos2.Bank.Api\ProjAndreVeiculos2.Bank.Api.csproj", "{A61A8921-EF29-4BF8-BFE1-79C86FB747CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAndreVeiculos2.Test", "ProjAndreVeiculos2.Test\ProjAndreVeiculos2.Test.csproj", "{034D589C-AE77-47F3-B8F2-2B04272E9D01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A61A8921-EF29-4BF8-BFE1-79C86FB747CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A61A8921-EF29-4BF8-BFE1-79C86FB747CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A61A8921-EF29-4BF8-BFE1-79C86FB747CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034D589C-AE77-47F3-B8F2-2B04272E9D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034D589C-AE77-47F3-B8F2-2B04272E9D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034D589C-AE77-47F3-B8F2-2B04272E9D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034D589C-AE77-47F3-B8F2-2B04272E9D01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
