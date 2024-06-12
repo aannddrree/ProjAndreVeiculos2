@@ -97,6 +97,10 @@ namespace ProjAndreVeiculos2.Customer.Api.Controllers
           {
               return Problem("Entity set 'ProjAndreVeiculos2CustomerApiContext.Customer'  is null.");
           }
+
+            Bank bank = _bankService.PostBank(customer.Bank).Result;
+            customer.Bank = bank;
+
             _context.Customer.Add(customer);
             await _context.SaveChangesAsync();
 
